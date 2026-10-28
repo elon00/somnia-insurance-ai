@@ -1,0 +1,46 @@
+{
+  "mcpServers": {
+    "somnia-insurance-ai": {
+      "tools": [
+        {
+          "name": "assess_perp_margin_risk",
+          "description": "Calculates dreamDEX perp margin coverage, liquidation risk, and insurance premium",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "position_size": {
+                "type": "number"
+              },
+              "leverage": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "position_size",
+              "leverage"
+            ]
+          }
+        },
+        {
+          "name": "execute_instant_slippage_payout",
+          "description": "Triggers sub-millisecond automated compensation for slippage divergence on Somnia",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "order_id": {
+                "type": "string"
+              },
+              "indemnity_amount": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "order_id",
+              "indemnity_amount"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
