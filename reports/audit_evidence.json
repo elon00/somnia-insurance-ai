@@ -1,0 +1,10 @@
+{
+  "project": "somnia-insurance-ai",
+  "commit_sha": "068ff3f1a90fb09a2d4081a7dedbccd0af53b264",
+  "timestamp": "2026-10-28T07:44:12.638522Z",
+  "score": 100,
+  "theme": "Sub-Millisecond Perp Margin & Slippage Protection Protocol",
+  "blockchain": "Somnia Network L1 (Tokyo Testnet)",
+  "contract": "SomniaDeFiInsuranceVault.sol",
+  "reality_check_output": "======================================================================\n    REALITY CHECK HARNESS: somnia-insurance-ai ($SOMINS)\n    Chain: Somnia Network L1 (Tokyo Testnet)\n======================================================================\n[PASS] Gate 1: Conway Non-Linear Invariant State Engine verified (+25)\n[PASS] Gate 2: Smart Contract verified (SomniaDeFiInsuranceVault.sol) (+25)\n[PASS] Gate 3: Native MCP Tools schema verified (+20)\n[PASS] Gate 4: Interactive Launchpad UI verified (+15)\n[PASS] Gate 5: CI/CD Pipeline & Zero Key Exposure verified (+15)\n----------------------------------------------------------------------\nFINAL REALITY VERIFICATION SCORE: 100/100\nVERDICT: 100/100 GENUINE GREEN - READY FOR PRODUCTION\n======================================================================\n"
+}
